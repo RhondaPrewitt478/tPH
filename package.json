@@ -1,27 +1,24 @@
 {
-  "name": "node",
-  "version": "0.1.0",
-  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
-  "main": "server.js",
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "axios": "^1.7.9",
-    "body-parser": "^1.20.3",
-    "express": "^4.21.2",
-    "forever": "^4.0.3",
-    "fs": "^0.0.1-security",
-    "request": "^2.88.2"
-  },
-  "engines": {
-    "node": "14.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node"
-  ]
+    "axios": "^1.10.0",
+    "clean-css": "^4.1.11",
+    "constantinople": "^3.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "lorem-ipsum": "^2.0.3",
+    "md5": "^2.2.1",
+    "mersenne-twister": "^1.1.0",
+    "morgan": "~1.9.1",
+    "pug": "^2.0.4",
+    "request": "^2.88.2",
+    "uglify-js": "^2.6.0"
+  }
 }
